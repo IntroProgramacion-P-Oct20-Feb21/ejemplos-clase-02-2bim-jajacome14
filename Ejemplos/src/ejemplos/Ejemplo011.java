@@ -1,11 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/*  Estudiante: Luis - promedio final: 8,0000
+    Estudiante: Ana - promedio final: 9,1000
+    Estudiante: Mónica - promedio final: 9,6000
+    Estudiante: José - promedio final: 9,9000
+    Estudiante: Juan - promedio final: 9,8000
  */
+ 
 package ejemplos;
-
-import java.util.Scanner;
 
 /**
  *
@@ -20,7 +20,7 @@ public class Ejemplo011 {
         // Declarar y generar arreglos en Java
         
         // Se declara un arreglo de tipo double, llamado promedios
-        double[] promediosMateria1 = {8.1, 9, 9.5, 10, 9.9};
+           double[] promediosMateria1 = {8.1, 9, 9.5, 10, 9.9};
         double[] promediosMateria2 = {7.9, 9.2, 9.7, 9.8, 9.7};
         String[] estudiantes = {"Luis", "Ana", "Mónica", "José", "Juan"};
         double[] promediosFinales = new double[5];
@@ -44,10 +44,12 @@ public class Ejemplo011 {
         
         for (int i = 0; i < promediosMateria1.length; i++) { 
             
-            mensajeFinal = String.format("%sEstudiante:%s - promedio final: "
-                    + "%.4f\n", 
+            mensajeFinal = String.format("%sEstudiante:%s - M1:%.2f - M2:%.2f " 
+                    + "- PROM:%.4f\n",
                     mensajeFinal,
                     estudiantes[i],
+                    promediosMateria1[i],
+                    promediosMateria2[i],
                     promediosFinales[i]);
         }
         
@@ -56,3 +58,5 @@ public class Ejemplo011 {
     }
 
 }
+
+

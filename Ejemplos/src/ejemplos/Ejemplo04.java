@@ -9,7 +9,7 @@ package ejemplos;
  *
  * @author reroes
  */
-public class Ejemplo04 {
+public class Ejemplo04 {  
 
     /**
      * @param args the command line arguments
